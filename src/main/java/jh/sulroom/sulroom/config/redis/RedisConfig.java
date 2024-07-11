@@ -1,4 +1,4 @@
-package config.redis;
+package jh.sulroom.sulroom.config.redis;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

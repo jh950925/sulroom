@@ -1,4 +1,4 @@
-package config.http;
+package jh.sulroom.sulroom.config.http;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;

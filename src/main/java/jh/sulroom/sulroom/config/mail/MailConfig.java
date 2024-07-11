@@ -1,4 +1,4 @@
-package config.mail;
+package jh.sulroom.sulroom.config.mail;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package config.mail;
+package jh.sulroom.sulroom.config.mail;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.mail.SimpleMailMessage;

@@ -52,7 +52,11 @@ dependencies {
      *  Test 설정
      */
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+//    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    //** lombok **//
+    testCompileOnly 'org.projectlombok:lombok'
+    testAnnotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {

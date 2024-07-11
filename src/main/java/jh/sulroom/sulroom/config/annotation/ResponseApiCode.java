@@ -1,4 +1,4 @@
-package config.annotation;
+package jh.sulroom.sulroom.config.annotation;
 
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

@@ -1,4 +1,4 @@
-package config.swagger;
+package jh.sulroom.sulroom.config.swagger;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;

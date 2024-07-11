@@ -1,4 +1,4 @@
-package config.emun;
+package jh.sulroom.sulroom.config.emun;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

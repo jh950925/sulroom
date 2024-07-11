@@ -1,4 +1,4 @@
-package config.http;
+package jh.sulroom.sulroom.config.http;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
