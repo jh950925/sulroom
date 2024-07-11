@@ -18,8 +18,8 @@ public class SwaggerConfig {
 
     private Info apiInfo() {
         return new Info()
-                .title("혼술 커뮤니티")            // 제목
-                .description("개인용 포트폴리오")   // 설명
-                .version("0.1.0");               // 버전
+                .title("술방")            // 제목
+                .description("포트폴리오")   // 설명
+                .version("0.0.1");               // 버전
     }
 }
