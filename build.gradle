@@ -35,7 +35,17 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 
     /**  스웨거 impl**/
-    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
+
+    /** WebClient **/
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+
+    /** Email **/
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+
+    /** Redis **/
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'redis.clients:jedis:5.1.3'
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////
     /**
