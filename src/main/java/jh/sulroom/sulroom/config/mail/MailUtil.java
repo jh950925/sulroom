@@ -10,16 +10,16 @@ import org.springframework.stereotype.Service;
 public class MailUtil {
 
     private final SimpleMailMessage simpleMailMessage;
-    private final JavaMailSender mailSender;
+//    private final JavaMailSender mailSender;
 
-    public void sendEmail(String to, String subject, String text) {
-        SimpleMailMessage message = new SimpleMailMessage(simpleMailMessage);
-
-        message.setTo(to);
-        message.setSubject(subject);
-        message.setText(text);
-
-        mailSender.send(message);
-    }
+//    public void sendEmail(String to, String subject, String text) {
+//        SimpleMailMessage message = new SimpleMailMessage(simpleMailMessage);
+//
+//        message.setTo(to);
+//        message.setSubject(subject);
+//        message.setText(text);
+//
+//        mailSender.send(message);
+//    }
 
 }
