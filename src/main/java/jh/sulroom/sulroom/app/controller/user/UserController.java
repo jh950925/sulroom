@@ -12,18 +12,30 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class UserController {
 
+    /**
+     * 회원가입 화면이동
+     * @return VIew
+     */
     @GetMapping("/add/view")
     public String mvUSerAddView() {
-        return "";
+        return "user/userAdd";
     }
 
+    /**
+     * 회원 ID 찾기 화면이동
+     * @return View
+     */
     @GetMapping("/search/id/view")
     public String mvUSerSearchIdView() {
-        return null;
+        return "user/userSearchId";
     }
 
+    /**
+     * 회원 PASS 찾기 화면이동
+     * @return View
+     */
     @GetMapping("/search/pass/view")
     public String mvUserSearchPassView() {
-        return null;
+        return "user/userSearchPass";
     }
 }
